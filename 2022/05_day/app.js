@@ -1,5 +1,4 @@
 var fs = require("fs");
-const { format } = require("path");
 var text = fs.readFileSync("./input_data.txt").toString('utf-8').split("\n");
 
 const startFormation = {
